@@ -1,0 +1,95 @@
+.contact-page {
+    margin: 20px 0px;
+    
+    .image-container{
+   
+        height: 300px;
+        background-image:  linear-gradient(to right, rgba(112, 95, 145, 0.52), rgba(128, 212, 255, 0.73)), url('../../assets/contact.jpg');
+        margin-right: 5%;
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.4rem;
+        
+        h1 {
+           margin-bottom: 0; 
+        }
+    }
+    .contents {
+        width: 80%;
+        height: 250px;
+        position: relative;
+        display: flex;  
+        flex-direction: row;
+        justify-content: center; 
+        margin: 0 auto;
+        margin-top: -60px;
+        font-size: 1rem;
+        
+
+        .call {
+            background-color: white;
+            position: relative;
+            display: grid;
+            justify-items: center;
+            justify-content: center;
+            border: 2px solid rgba($color: grey, $alpha: 0.1);
+            width: 50%;
+            margin-right: 3%;
+            padding: 10px;
+            border-radius: 5%;
+            
+            .phone-icon{
+                font-size: 30px;
+            }
+
+            a {
+                color: royalblue;
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+           
+        }
+        .email {
+            background-color: white;
+            position: relative;
+            display: grid;
+            justify-items: center;
+            justify-content: center;
+            border: 2px solid rgba($color: grey, $alpha: 0.1);
+            width: 50%;
+            margin-right: 3%;
+            padding: 10px;
+            border-radius: 5%;
+            
+            
+            .email-icon{
+                font-size: 30px;
+            }
+
+            a {
+              
+                width: 60%;
+                border-radius: 5%;
+                height: 40px;
+                color: white;
+                font-size: 1.1rem;
+                font-weight: bold;
+                background-color: rgba(240, 73, 68, 0.8);
+                display: flex;
+                justify-content: center;
+                padding-top: 5px;
+                
+                
+            }
+            a:hover {
+                background-color: red;
+            }
+        }
+    }
+}
+
