@@ -10,14 +10,14 @@
     top: 80px;
     right: 20px;
     z-index: 5;
-    // ::-webkit-scrollbar { 
-    //     display: none;
+    
 
     .cart-items {
         height: 240px;
         display: flex;
         flex-direction: column;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
     .empty-cart {
         font-size: 18px;
