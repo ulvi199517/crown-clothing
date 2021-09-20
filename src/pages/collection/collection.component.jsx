@@ -4,12 +4,15 @@ import CollectionItem from '../../components/collection-item/collection-item.com
 import {connect} from 'react-redux';
 import {selectCollection} from '../../redux/shop/shop.selectors';
 
-
-const CollectionPage = ({collection}) => {
+const CollectionPage = ({collection, history}) => {
     const {title, items} = collection;
     return(
 
         <div className='collection-page'>
+            <div 
+                className='go-back-button'
+                onClick={() => history.push('/shop')}
+                >&#10232;</div>
             <h2 className='title'>{title}</h2>
             <div className='items'>
                 {
